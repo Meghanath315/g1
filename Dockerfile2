@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM nginx
 
 
 ADD ./index1.html ./usr/share/nginx/html
