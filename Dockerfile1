@@ -1,0 +1,5 @@
+FROM ubuntu
+
+
+ADD ./index.html ./usr/share/nginx/html
+ENTRYPOINT service nginx restart && bash
